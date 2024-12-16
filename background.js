@@ -1,9 +1,9 @@
 function updateBlockedUrls() {
-  chrome.storage.sync.get("blockedUrls", (data) => {
+  chrome.storage?.sync.get("blockedUrls", (data) => {
     const blockedUrls = data.blockedUrls || [];
 
     // Convertir las URLs en reglas declarativas
-    const rules = blockedUrls.map((url: string, index: number) => ({
+    const rules = blockedUrls.map((url, index) => ({
       id: index + 1,
       priority: 1,
       action: {
