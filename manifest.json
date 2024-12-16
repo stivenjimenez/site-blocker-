@@ -2,5 +2,13 @@
   "manifest_version": 3,
   "name": "SiteBlocker",
   "version": "0.0.1",
-  "action": { "default_popup": "index.html" }
+  "description": "A Chrome extension to block websites.",
+  "permissions": ["storage", "declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
 }

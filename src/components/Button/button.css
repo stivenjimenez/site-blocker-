@@ -1,0 +1,29 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button--primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: #2563eb;
+}
+
+.button--danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.button--danger:hover {
+  background-color: #dc2626;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
