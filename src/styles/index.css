@@ -1,0 +1,39 @@
+/* Reset default styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset body */
+/* body {
+} */
+
+/* Reset images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Reset buttons */
+button {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+/* Reset inputs */
+input {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Reset lists */
+ul,
+ol {
+  list-style: none;
+}
